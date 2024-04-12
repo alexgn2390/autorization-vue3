@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url("../fonts/Gilroy-Light.otf");
+    font-family: "Gilroy";
+}
+
+@font-face {
+    src: url("../fonts/gilroy-bold.ttf");
+    font-family: "GilroyBold";
+}
+
+body {
+    font-family: Gilroy, sans-serif;
+}
+
+.header {
+    padding: 20px 40px;
+    background: #63C5D1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 12px;
+}
+
+.header-text {
+    color: white;
+    font-size: 14px;
+}
+
+.header-svg svg {
+    margin-right: 12px;
+}
+
+.header-svg svg:last-child {
+    margin-right: 0;
+}
+
+.section {
+    background: #FBFBFB;
+    display: flex;
+    justify-content: center;
+    padding-top: 207.5px;
+    padding-bottom: 207.5px;
+
+}
+
+.section-wrapper {
+    max-width: 400px;
+    padding: 60px 40px 40px 40px;
+    box-sizing: border-box;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 20px;
+    font-family: GilroyBold, sans-serif;
+    color: black;
+    margin-bottom: 40px;
+}
+
+.section-description {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.form-input {
+    width: 100%;
+    outline: none;
+    background: white;
+    color: #9D9D9D;
+    font-size: 14px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    font-family: Gilroy, sans-serif;
+}
+
+.form-input:nth-child(4) {
+    margin-bottom: 0;
+}
+
+.form-repeat-password {
+    margin-bottom: 12px;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    background: #FFE927;
+    border: none;
+    border-radius: 8px;
+    margin-top: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: GilroyBold, sans-serif;
+}
+
+.footer {
+    background: #63C5D1;
+    padding: 40px;
+}
+
+.footer-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.footer-img {
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer-text {
+    color: white;
+    font-size: 14px;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+    display: none;
+}
